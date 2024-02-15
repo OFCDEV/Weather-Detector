@@ -10,7 +10,7 @@
     font-style: normal;
   } */
 body{
-    background-color: #222;
+    background-color: #282930;
 }
 .card{
     width: 90%;
@@ -84,4 +84,18 @@ body{
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+
+/* we want to hide all the data first and when the user gives input then we will show the required data */
+
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
